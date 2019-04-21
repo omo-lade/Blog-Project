@@ -1,5 +1,7 @@
 <?php
-require_once 'blogger.php';                 //line 2-11 this code will be needed in the final homepage. so that Without login we can't access the homepage.
+require_once 'models\blogger.php';
+
+//line 2-11 this code will be needed in the final homepage. so that Without login we can't access the homepage.
 session_start();
 
 if(!isset($_SESSION['user'])){

@@ -9,4 +9,4 @@ public function Blogger($username) {
     
         
 };
-
+var_dump(stream_resolve_include_path("member.class.php"));
